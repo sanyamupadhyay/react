@@ -1,0 +1,63 @@
+
+function Header(){
+    
+      return (
+          
+         
+          <header>
+          
+           <nav> 
+           this is a navbar!
+           </nav>
+         
+         </header> 
+         
+      )
+}
+
+function Footer (){
+    
+return (    
+    
+    <footer>
+    <strong> this is a footer</strong>
+    </footer>
+)
+    
+   
+    
+}
+function Maincontent(){
+
+return (
+    <div>
+    <ul>
+    
+    <li> hello </li>
+    <li> jsdos</li>
+    </ul>    
+ </div>
+)    
+    
+    
+}
+
+function Hello (){
+
+        return ( 
+           <div>
+         <Header />
+        
+         
+        <Maincontent/>
+      
+       
+      <Footer />
+        
+       </div>
+        
+    )
+    
+}
+
+ReactDOM.render(Hello(),document.getElementById("root"));
