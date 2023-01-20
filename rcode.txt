@@ -1,0 +1,24 @@
+
+function temp (){
+    
+    return (
+             
+    <div>
+    
+    <img src="https://th.bing.com/th/id/R.127b470a1814ca2ae06d9f40df34f190?rik=E2vOR%2f6JU%2bSncw&riu=http%3a%2f%2fblog.addthiscdn.com%2fwp-content%2fuploads%2f2014%2f11%2faddthis-react-flux-javascript-scaling.png&ehk=4C5%2fCryhwvgIM7FR54PAiugU6Xu9y7U3hL0PS9u%2bmag%3d&risl=&pid=ImgRaw&r=0" width = "100px"/>
+    <h1> Fun Fact About React</h1>
+    
+    <ul>
+     <li> first released in 2013</li>
+    <li> creatd abdhsd ok</li>
+    <li> sihfoaifsd omje</li>
+    <li> lorem imsfhs ok </li>
+    <li> last item </li>
+    <li> aakriti gadhi </li>
+      </ul>
+    </div> 
+    )
+}
+
+
+ ReactDOM.render(temp(),document.getElementById("root"));
